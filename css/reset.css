@@ -1,6 +1,3 @@
-/* Reset the default elements on the site */
-
-/* Box sizing */
 html {
     box-sizing: border-box;
     scroll-behavior: smooth;
@@ -12,14 +9,12 @@ html {
     box-sizing: inherit;
 }
 
-/* Body Defaults */
 body {
     min-height: 100vh;
     text-rendering: optimizeSpeed;
     line-height: 1.5;
 }
 
-/* Margins and Padding */
 body,
 h1,
 h2,
@@ -42,12 +37,10 @@ dd {
     padding: 0;
 }
 
-/* Lists */
 ul {
     list-style: none;
 }
 
-/* Forms */
 input,
 textarea,
 select,
@@ -76,7 +69,6 @@ button {
     background-color: transparent;
 }
 
-/* Media */
 img,
 svg,
 iframe,
@@ -87,7 +79,6 @@ embed {
     max-width: 100%;
 }
 
-/* Tables */
 table {
     table-layout: fixed;
     width: 100%;

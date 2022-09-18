@@ -1,10 +1,10 @@
-/* Base styles */
+/* Estilos básicos */
 * {
     font-family: "Raleway", sans-serif;
 }
 
 a {
-    color: orange;
+    color: pink;
     text-decoration: none;
 }
 
@@ -20,7 +20,7 @@ section {
 .container {
     width: 970px;
     margin: auto;
-    padding-top: 75px;
+    padding-top: 50px;
 }
 
 .container h3,
@@ -39,7 +39,7 @@ section {
 }
 
 
-/* Header */
+/* Cabeçalho */
 .header-container,
 .footer-container {
     display: flex;
@@ -64,7 +64,7 @@ header #company-logo {
 header h1 {
     font-size: 25px;
     font-weight: thin;
-    font-family: "Rock Salt", cursive;
+    font-family: 'Pacifico', cursive;
     color: #ddd;
     line-height: 35px;
     text-shadow: 1px 1px 3px #333;
@@ -81,7 +81,7 @@ header nav ul li {
     margin-right: 20px;
 }
 
-/* Hero Image */
+/* Imagem principal */
 #hero-image {
     height: 100vh;
     background: #000 url("../images/hero.jpg") no-repeat fixed bottom;
@@ -107,7 +107,7 @@ header nav ul li {
     opacity: 0.5;   
 }
 
-/* Top Button */
+/* Botão "Voltar ao topo" */
 #topButton {
     display: none;
     position: fixed;
@@ -128,7 +128,7 @@ header nav ul li {
     background-color: #555;
 }
 
-/* Our Story */
+/* Nossa história */
 #our-story {
     padding: 25px 0;
 }
@@ -137,7 +137,12 @@ header nav ul li {
     text-align: justify;
 }
 
-/* Gallery */
+.instagram-media {
+    margin: 0 auto !important;
+    border: 2px solid green;
+}
+
+/* Galeria */
 #gallery {
     background-color: #333;
     color: #fff;
@@ -157,11 +162,17 @@ header nav ul li {
     flex-basis: 33%;
 }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .gallery-description {
     margin-bottom: 20px;
 }
 
-/* Events */
+/* Eventos */
 #events {
     background-color: #eee;
     padding: 25px 0;
@@ -179,10 +190,9 @@ header nav ul li {
     font-weight: bolder;
 }
 
-/* Contact */
+/* Fale conosco */
 #contact {
     width: 100%;
-    margin-top: 40px;
     margin-bottom: 60px;
 }
 
@@ -225,7 +235,7 @@ header nav ul li {
     cursor: pointer;
 }
 
-/* Footer */
+/* Rodapé */
 footer {
     background-color: #222;
     position: relative;
